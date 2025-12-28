@@ -1,7 +1,7 @@
 # Portfolio | Asuka Tsurumoto (IT Engineer)
 Welcome to my portfolio repository! This repository hosts my personal portfolio website and showcases my data analysis and development projects.
 ## 🔗 Live Portfolio
-👉 **[View Portfolio Website](https://crane424.github.io/Portfolio/my_homepage/)**
+👉 **[View Portfolio Website](https://crane424.github.io/Portfolio/)**
 ## 📂 Projects
 ### 1. Diabetes Readmission Risk Prediction
 *   **Description**: A machine learning project analyzing the UCI Diabetes dataset to predict 30-day readmission risks.
