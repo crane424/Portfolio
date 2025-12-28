@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | IT Engineer</title>
+    <meta name="description" content="Portfolio of an IT Engineer specialized in Web Development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#hero" class="logo">&lt;Dev/&gt;</a>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-nav-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <img src="profile.jpg" alt="Asuka Tsurumoto" class="profile-img">
+                </div>
+                <span class="greeting">Hi there, I'm</span>
+                <h1 class="hero-title">Asuka Tsurumoto</h1>
+                <h2 class="hero-subtitle">I build <span class="typing-text"></span></h2>
+                <p class="hero-description">
+                    IT Engineer with 3+ years of experience specializing in Python, R, and mobile development with
+                    Flutter.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">Check out my work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block-visual">
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Asuka Tsurumoto'</span>,
+  <span class="property">role</span>: <span class="string">'IT Engineer'</span>,
+  <span class="property">skills</span>: {
+    <span class="property">python</span>: <span class="string">'3 Years'</span>,
+    <span class="property">R</span>: <span class="string">'1 Year'</span>,
+    <span class="property">flutter</span>: <span class="string">'0.5 Years'</span>
+  }
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        こんにちは、鶴本 明日香 (Asuka Tsurumoto) です。
+                        Pythonを用いた開発経験が3年あり、データ分析やバックエンド開発に強みを持っています。
+                        また、R言語を用いた統計解析の経験(1年)や、Flutterを用いたモバイルアプリ開発の経験(半年)もあります。
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <p class="section-subtitle">Technologies managed & used</p>
+
+            <div class="skills-grid">
+                <!-- Data & Backend -->
+                <div class="skill-category">
+                    <h3>Data & Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" title="3 Years Experience"><ion-icon name="logo-python"></ion-icon>
+                            Python (3y)</span>
+                        <span class="skill-tag" title="1 Year Experience"><ion-icon
+                                name="stats-chart-outline"></ion-icon> R (1y)</span>
+                        <span class="skill-tag"><ion-icon name="server-outline"></ion-icon> SQL</span>
+                    </div>
+                </div>
+
+                <!-- Mobile & Frontend -->
+                <div class="skill-category">
+                    <h3>Mobile & Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" title="0.5 Years Experience"><ion-icon
+                                name="phone-portrait-outline"></ion-icon> Flutter (0.5y)</span>
+                        <span class="skill-tag"><ion-icon name="logo-html5"></ion-icon> HTML5</span>
+                        <span class="skill-tag"><ion-icon name="logo-css3"></ion-icon> CSS3</span>
+                        <span class="skill-tag"><ion-icon name="logo-javascript"></ion-icon> JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><ion-icon name="git-branch-outline"></ion-icon> Git</span>
+                        <span class="skill-tag"><ion-icon name="logo-docker"></ion-icon> Docker</span>
+                        <span class="skill-tag"><ion-icon name="terminal-outline"></ion-icon> VsCode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <img src="integra_trends.png" alt="Integra Price Trends" class="project-img">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <ion-icon name="stats-chart-outline" class="folder-icon"></ion-icon>
+                            <div class="project-links">
+                                <a href="https://github.com/crane424/Integra" target="_blank"
+                                    aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+                                <a href="https://integra-analysis.streamlit.app/" target="_blank"
+                                    aria-label="Launch App" title="Launch Live App"><ion-icon
+                                        name="rocket-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Honda Integra Market Analysis</h3>
+                        <p class="project-description">
+                            Analyzed price trends of Honda Integra using Python.
+                            Found the mean price of Type R (¥2.64M) is significantly higher than standard models
+                            (¥1.23M).
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <img src="diabetes_dashboard.png" alt="Diabetes Prediction Dashboard" class="project-img">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <ion-icon name="medkit-outline" class="folder-icon"></ion-icon>
+                            <div class="project-links">
+                                <a href="https://github.com/crane424/Portfolio/tree/main/diabetes-130-us-hospitals"
+                                    target="_blank" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+                                <a href="https://diabetes-analysis-us.streamlit.app/" target="_blank"
+                                    aria-label="Launch App" title="Launch Interactive Dashboard"><ion-icon
+                                        name="rocket-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Diabetes Readmission Risk</h3>
+                        <p class="project-description">
+                            Predicted 30-day hospital readmission risk for diabetes patients using Random Forest.
+                            Interactive dashboard for risk assessment.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>Scikit-Learn</li>
+                            <li>Streamlit</li>
+                        </ul>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Get In Touch / Footer -->
+    <section id="contact" class="section contact-section">
+        <div class="container text-center">
+            <p class="section-subtitle">What's Next?</p>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">
+                現在、新しいプロジェクトや参加できるチームを探しています。
+                質問がある場合や、ただ挨拶したいだけでも、お気軽にメールしてください！
+            </p>
+            <a href="mailto:crane191225@gmail.com" class="btn btn-primary">Say Hello</a>
+
+            <footer class="footer">
+                <div class="social-links">
+                    <a href="https://github.com/crane424" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <p class="copyright">
+                    Designed & Built by <span class="accent-text">Asuka Tsurumoto</span>
+                </p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
